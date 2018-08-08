@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PlatformsController@index');
+Route::get('/search','SearchDataController@result');
