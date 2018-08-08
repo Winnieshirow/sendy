@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Platform;
+use DB;
 
 class PlatformsController extends Controller
 {
@@ -16,6 +17,40 @@ class PlatformsController extends Controller
     {
         $platform = Platform::all();
         return view('platforms')->with('platform', $platform);
+    }
+
+    public function search(Request $request)
+    
+    {
+    
+            if($request->ajax())
+        
+            {
+        
+            $output="";
+            
+            $platforms=DB::table('platforms')->where('title','LIKE','%'.$request->search."%")->get();
+            
+            if($platforms)
+        
+            {
+                
+                foreach ($platforms as $key => $platform) 
+                {
+                
+                    $output.='<tr>'.
+                    
+                    '<td> <a href="'.$platform->link.'">'.$platform->title.'</a> </td>'.
+                    
+                    '<td>'.$platform->description.'</td>'.
+                    
+                    '</tr>';
+                
+                }   
+                
+                return Response($output);       
+            }
+        }
     }
     /**
      * Show the form for creating a new resource.

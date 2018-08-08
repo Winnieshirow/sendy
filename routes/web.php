@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'PlatformsController@index');
-Route::get('/search','SearchDataController@result');
+Route::get('/search','PlatformsController@search');
