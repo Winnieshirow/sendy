@@ -35,7 +35,8 @@ ABC Ltd uses a number of platforms for communication and to manage their service
 
 ![list](https://user-images.githubusercontent.com/10959155/43885344-4de6a3f4-9bc1-11e8-8352-6fb6b32d6f80.png)
 
-<p> Search functionality Implemented using the Laravel AJAX </p>
+<p> Search functionality Implemented using the Laravel AJAX </p><br>
 
+![search](https://user-images.githubusercontent.com/10959155/43885513-c465efda-9bc1-11e8-96f2-78ba6e620a2a.png)
   
 
