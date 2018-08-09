@@ -31,6 +31,9 @@ ABC Ltd uses a number of platforms for communication and to manage their service
 <ul>Web server (Apache)</ul>
 
 ## Solution
+To add the database:
+  <ul> Set the Database Credentials in .env </ul><br>
+  Then Run: php artisan migrate
 <p> Listing of platforms of communication from the database</p><br>
 
 ![list](https://user-images.githubusercontent.com/10959155/43885344-4de6a3f4-9bc1-11e8-8352-6fb6b32d6f80.png)
