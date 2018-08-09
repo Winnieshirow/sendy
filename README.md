@@ -22,3 +22,18 @@ ABC Ltd uses a number of platforms for communication and to manage their service
 
 1.To help new staff easily navigate to those platforms, you are required to create a simple page that lists the platforms used and a description of its use. When clicked it should take the user to the site. <br> <br>
 2.Since platforms may be many and it gets tedious to scroll through the page till the end, add a search functionality to the page which filters the results to match what the user has typed.
+
+## Prerequisites 
+<ul>Linux and LAMPP environment</ul>
+<ul>Laravel 5.6</ul>
+<ul>PHP 7.1</ul>
+<ul>MySQL</ul>
+<ul>Web server (Apache)</ul>
+
+## Solution
+<p> Listing of platforms of communication from the database</p>
+
+<p> Search functionality Implemented using the Laravel AJAX </p>
+
+  
+
