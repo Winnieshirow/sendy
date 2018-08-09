@@ -32,6 +32,8 @@ ABC Ltd uses a number of platforms for communication and to manage their service
 
 ## Solution
 <p> Listing of platforms of communication from the database</p>
+![list](https://user-images.githubusercontent.com/10959155/43885132-af65f1da-9bc0-11e8-963c-b55dcd107cee.png)
+
 
 <p> Search functionality Implemented using the Laravel AJAX </p>
 ![search](https://user-images.githubusercontent.com/10959155/43885065-81cce26a-9bc0-11e8-9330-9b9a5a81b4f7.png)
