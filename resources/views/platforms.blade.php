@@ -1,30 +1,31 @@
 @include('layouts.app')
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-static-top">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="/">Platforms</a>
+            <a class="navbar-brand" href="/">SimpleWeb</a>
           </div>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
         </div>
-    </nav>
+      </nav>
  <div class="container">
             <div class="row">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                    <h3>Platforms </h3>
+                    <h1>PLATFORMS FOR COMMUNICATION</h1>
                     </div>
                         <div class="panel-body">
                             <div class="form-group">
-                            <input type="text" class="form-controller" id="search" name="search"></input>
+                            <input type="text" class="form-controller" id="search" placeholder="Search platforms" name="search"></input>
                             </div>
-                                <table class="table table-bordered table-hover">
+                                <table class="table table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Product Name</th>
+                                            <th>Platform Name</th>
                                             <th>Description</th>
                                         </tr>
                                     </thead>
