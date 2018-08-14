@@ -6,7 +6,7 @@
   If there is a Php error; Run $-composer update first<br>
 Data for the page is provided as platforms.sql</br><br>
 4.Run php artisan serve<br>
-5.View on your localhost:8080
+5.View on your localhost:8080 / 8005
 ## Background
 
 ABC Ltd uses a number of platforms for communication and to manage their services. Here are some of them.<br>
