@@ -1,4 +1,12 @@
 # Sendy Project
+## Local SetUp
+  1. Clone the project
+  2. Set the Database Credentials in .env 
+  3. Create the Migration
+      i. Go to the root of your application and type the following command
+          -php artisan migrate
+  4.Run php artisan serve
+  5.View on your localhost:8080
 ## Background
 
 ABC Ltd uses a number of platforms for communication and to manage their services. Here are some of them.<br>
