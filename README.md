@@ -2,10 +2,8 @@
 ## Local SetUp
   1. Clone the project
   2. Set the Database Credentials in .env 
-  3. Create the Migration
-      i. Go to the root of your application and type the following command
-          -php artisan migrate
-  4.Run php artisan serve
+  3. Create the Migration: Go to the root of your application and type the following command:- php artisan migrate<br>
+  4.Run php artisan serve<br>
   5.View on your localhost:8080
 ## Background
 
