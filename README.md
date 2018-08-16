@@ -3,10 +3,10 @@
   1. Clone the project: git clone https://github.com/Winnieshirow/sendy.git
   2. Create a Database and Set the Database Credentials in .env 
   3. Create the Migration: Go to the root of your application and type the following command:- php artisan migrate<br>
-  If there is a Php error; Run $-composer update first<br>
-Data for the page is provided as platforms.sql</br><br>
-4.Run php artisan serve<br>
-5.View on your localhost:8080 / 8005
+      If there is a Php error; Run $-composer install<br>
+      Data for the page is provided as platforms.sql</br><br>
+  4. Run php artisan serve<br>
+  5. View on your localhost:8080 / 8005
 ## Background
 
 ABC Ltd uses a number of platforms for communication and to manage their services. Here are some of them.<br>
